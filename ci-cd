@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Nithish-1611/Jenkins-zero-to-hero.git'
+                git branch: 'main', url: 'https://github.com/suvethavijayan/jenkins.git'
             }
         }
         
